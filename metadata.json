@@ -1,0 +1,8 @@
+{
+  "name": "Remix Orbital Avtacha....",
+  "description": "A sovereign cybersecurity network providing advanced threat intelligence and emergency infrastructure for Africa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
