@@ -12,9 +12,9 @@ import {
 export const STATS_DATA: StatItem[] = [
   {
     id: 'gpi',
-    value: '143rd',
-    numericValue: 143,
-    suffix: 'rd',
+    value: '142nd',
+    numericValue: 142,
+    suffix: 'nd',
     label: 'GLOBAL PEACE INDEX RANK',
     description: 'Sub-Saharan civilian safety index critical urgency zone',
   },
@@ -28,20 +28,20 @@ export const STATS_DATA: StatItem[] = [
   },
   {
     id: 'spend',
-    value: '₦2B+',
-    prefix: '₦',
-    numericValue: 2,
-    suffix: 'B+',
-    label: 'ANNUAL SECURITY SPEND',
-    description: 'Trapped in siloed, reactive legacy defense measures',
+    value: '$3.86B',
+    prefix: '$',
+    numericValue: 3.86,
+    suffix: 'B',
+    label: 'ANNUAL SECURITY BUDGET',
+    description: 'Trapped in siloed, reactive legacy security measures',
   },
   {
     id: 'users',
-    value: '42M',
-    numericValue: 42,
+    value: '96.27M',
+    numericValue: 96.27,
     suffix: 'M',
-    label: 'SMARTPHONE USERS UNPROTECTED',
-    description: 'Disconnected from sovereign real-time threat relays',
+    label: 'ACTIVE SMARTPHONE USERS',
+    description: '96.27 million Nigerians currently unprotected by real-time sovereign alert networks',
   },
 ];
 
@@ -53,8 +53,8 @@ export const MISSION_PILLARS: MissionPillar[] = [
   },
   {
     title: 'ANALYZE',
-    monoCode: 'PROTOCOL.02 // AI-POWERED BRAIN³ OS',
-    description: 'Security intelligence using the AI-powered Brain³ OS — fusing and sorting multimodal orbital, aerial, acoustic, and civilian streams into verified tactical consensus in under 320ms.',
+    monoCode: 'PROTOCOL.02 // AUTONOMOUS MULTI-VECTOR FUSION',
+    description: 'Security intelligence driven by our custom proprietary software — fusing and sorting multimodal orbital, aerial, acoustic, OSINT, and civilian streams into verified tactical consensus in under 320ms.',
   },
   {
     title: 'RESPOND',
@@ -189,14 +189,14 @@ export const FOCUS_CARDS: FocusCard[] = [
     number: 'SYS.MOD 01',
     title: 'Multimodal Ingestion Architecture',
     body: 'Building the unified encrypted relay infrastructure that ingests satellite imagery, aerial drone overwatch, edge CCTV, and civilian reports with shielded identity protection for reporters.',
-    tags: ['AES-256 GCM', 'AI-Powered Brain³ OS', 'Multi-Sensor Fusion'],
+    tags: ['AES-256 GCM', 'Custom Proprietary Core', 'Multi-Sensor Fusion'],
   },
   {
     id: 'focus-2',
     number: 'SYS.MOD 02',
-    title: 'Security Intelligence using AI-Powered Brain³ OS',
-    body: 'Engineering the AI-powered Brain³ OS to fuse asynchronous satellite SAR, aerial UAV thermal feeds, acoustic gunshot arrays, and civilian reports. It filters noise, resolves African vernaculars, and sorts kinetic threats with sub-second precision.',
-    tags: ['AI-Powered Brain³ OS', 'Multimodal Stream Tokenizer', 'Vernacular Deconfliction', 'Kinetic Threat Sorter'],
+    title: 'Autonomous Multi-Vector Threat Intelligence',
+    body: 'Engineering custom proprietary software to fuse asynchronous satellite SAR, aerial UAV thermal feeds, acoustic gunshot arrays, and civilian reports. It filters noise, resolves African vernaculars, and sorts kinetic threats with sub-second precision.',
+    tags: ['Proprietary AI Engine', 'Multimodal Stream Tokenizer', 'Vernacular Deconfliction', 'Kinetic Threat Sorter'],
   },
   {
     id: 'focus-3',

@@ -45,14 +45,14 @@ const FAQ_DATA: FAQItem[] = [
     id: 'faq-brain3-os',
     category: 'AI-Powered Brain³ OS',
     question: 'What is the AI-Powered Brain³ OS and how does it process security intelligence?',
-    shortAnswer: 'The AI-powered Brain³ OS is our sovereign defense operating system that ingests multimodal streams and resolves spatial threats in under 320 milliseconds.',
+    shortAnswer: 'The AI-powered Brain³ OS is our sovereign security operating system that ingests multimodal streams and resolves spatial threats in under 320 milliseconds.',
     fullExplanation: [
-      'Standard consumer AI models fail in kinetic African defense environments—they hallucinate, lack real-time geographic grounding, and cannot parse regional dialects or slang distress markers.',
+      'Standard consumer AI models fail in kinetic African environments—they hallucinate, lack real-time geographic grounding, and cannot parse regional dialects or slang distress markers.',
       'The AI-powered Brain³ OS is engineered specifically as a sovereign operating system and intelligence engine for African terrain and transit security.',
       'It operates as a deterministic ingestion pipeline that tokenizes data from low-Earth orbit Synthetic Aperture Radar (SAR), thermal UAV overwatch, urban nano-drones, solar CCTV feeds, acoustic gunshot sensors, and citizen reports into a unified spatial bus.',
       'Within < 320ms, the AI-powered Brain³ OS filters noise, deconflicts vernacular slang (e.g., Nigerian Pidgin, Hausa, Yoruba, Igbo, French, Swahili), checks for multi-sensor corroboration, and sorts kinetic ambushes by urgency for immediate tactical routing.',
     ],
-    keyTakeaway: 'Sub-320ms multimodal consensus that transforms chaos into deterministic corridor defense.',
+    keyTakeaway: 'Sub-320ms multimodal consensus that transforms chaos into deterministic corridor protection.',
     highlightBadge: 'AI-POWERED BRAIN³ OS',
   },
   {
@@ -327,7 +327,7 @@ export const FAQSection: React.FC = () => {
         <div className="mt-12 p-6 rounded-[6px] bg-gradient-to-r from-[#080F1C] to-[#0C1628] border border-[#142238] flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
           <div className="space-y-1">
             <span className="font-mono text-[11px] text-[#00C2B3] tracking-[1.5px] uppercase block">
-              HAVE A SPECIFIC TECHNICAL OR DEFENSE INQUIRY?
+              HAVE A SPECIFIC TECHNICAL OR OPERATIONAL INQUIRY?
             </span>
             <p className="font-display font-medium text-[15px] text-[#EDF2F8]">
               Connect directly with our Systems Architecture &amp; Operations team.

@@ -145,3 +145,55 @@ body {
   background: #00C2B3;
 }
 
+/* Brain³ Alive Sci-Fi Machine Learning Animations */
+@keyframes brainLaserScan {
+  0% {
+    top: -5%;
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.9;
+  }
+  85% {
+    opacity: 0.9;
+  }
+  100% {
+    top: 105%;
+    opacity: 0;
+  }
+}
+
+@keyframes brainAliveBreathing {
+  0%, 100% {
+    transform: scale(1);
+    filter: contrast(125%) saturate(115%) brightness(100%);
+  }
+  50% {
+    transform: scale(1.025);
+    filter: contrast(135%) saturate(130%) brightness(112%);
+  }
+}
+
+@keyframes synapseCoreGlow {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.75;
+    transform: scale(1.08);
+  }
+}
+
+.animate-brain-scan {
+  animation: brainLaserScan 3.2s ease-in-out infinite;
+}
+
+.animate-brain-alive {
+  animation: brainAliveBreathing 3.6s ease-in-out infinite;
+}
+
+.animate-synapse-glow {
+  animation: synapseCoreGlow 2.4s ease-in-out infinite;
+}
+

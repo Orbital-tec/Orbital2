@@ -27,25 +27,25 @@ export const MissionSection: React.FC = () => {
     groundSensors: {
       title: 'SOLAR EDGE CCTV & ACOUSTIC NODES',
       subtitle: 'Grid-Independent Optical & Ballistic Detection',
-      spec: 'Solar-powered smart cameras at road chokepoints paired with streetlight acoustic sensors that classify AK-47 muzzle blasts within 80ms into the AI-powered Brain³ OS token space.',
+      spec: 'Solar-powered smart cameras at road chokepoints paired with streetlight acoustic sensors that classify AK-47 muzzle blasts within 80ms into our custom proprietary software space.',
       latency: 'Acoustic Triangulation: < 80ms',
     },
     civilianMesh: {
       title: 'CIVILIAN MESH & OFFLINE LORAWAN RELAYS',
       subtitle: 'Shielded Civilian Telemetry & P2P Radio Hops',
-      spec: 'Citizen threat reports with reporter identity shielded from recipients, routed through store-and-forward BLE/LoRa mesh and ingested by the AI-powered Brain³ OS even during total telecommunication shutdowns.',
+      spec: 'Citizen threat reports with reporter identity shielded from recipients, routed through store-and-forward BLE/LoRa mesh and ingested by custom proprietary software even during total telecommunication shutdowns.',
       latency: 'P2P Mesh Hop: < 240ms',
     },
     ai: {
-      title: 'AI-POWERED Brain³ OS ENGINE',
+      title: 'PROPRIETARY AI FUSION ENGINE',
       subtitle: 'Spatial-Temporal Multimodal Threat Classifier & Sorter',
-      spec: 'Security intelligence using the AI-powered Brain³ OS. Fuses and sorts asynchronous multi-sensor signals, resolves African vernaculars & slang, deconflicts false alarms, and sorts threats by kinetic urgency.',
-      latency: 'Brain³ OS Inference & Sorting: < 320ms',
+      spec: 'Security intelligence driven by custom proprietary software. Fuses and sorts asynchronous multi-sensor signals, resolves African vernaculars & slang, deconflicts false alarms, and sorts threats by kinetic urgency.',
+      latency: 'Deterministic Inference & Sorting: < 320ms',
     },
     dispatch: {
       title: 'TACTICAL RESPONDER DISPATCH',
       subtitle: 'Direct Encrypted Routing to Vetted Units',
-      spec: 'Automated distress beacons sent straight to verified community guards, neighborhood patrols, and emergency medical responders via the AI-powered Brain³ OS deterministic bus.',
+      spec: 'Automated distress beacons sent straight to verified community guards, neighborhood patrols, and emergency medical responders via an ultra-low latency deterministic bus.',
       latency: 'Dispatch Execution: < 3.0 seconds',
     },
   };
@@ -99,11 +99,11 @@ export const MissionSection: React.FC = () => {
                 Orbital Avtacha unites the entire defensive spectrum — fusing
                 orbital satellite radar, long-range patrol UAVs, urban nano-drones,
                 solar-powered edge CCTV, acoustic gunshot arrays, and civilian telemetry.
-                Delivering security intelligence using the <span className="text-[#00C2B3] font-mono">AI-powered Brain³ OS</span>, all incoming signals are ingested, cross-verified, and sorted in real time into actionable defense.
+                Delivering security intelligence driven by our <span className="text-[#00C2B3] font-mono">custom proprietary software</span>, all incoming signals are ingested, cross-verified, and sorted in real time into actionable tactical protection.
               </p>
 
               <p className="text-[#EDF2F8] font-normal border-l-2 border-[#00C2B3] pl-4 py-2 italic bg-[#0C1628]/40 rounded-r-[4px]">
-                &ldquo;The intelligence is never missing. With the AI-powered Brain³ OS, we fuse chaos into instant, verified tactical protection.&rdquo;
+                &ldquo;The intelligence is never missing. With custom proprietary software, we fuse chaos into instant, verified tactical protection.&rdquo;
               </p>
             </div>
 
@@ -259,7 +259,7 @@ export const MissionSection: React.FC = () => {
                   onClick={() => setActiveNode('ai')}
                 >
                   <rect x="-85" y="-20" width="170" height="40" rx="4" fill="#0C1628" stroke={activeNode === 'ai' ? '#F0C84E' : '#C9A227'} strokeWidth={activeNode === 'ai' ? '2' : '1.5'} />
-                  <text x="0" y="-2" textAnchor="middle" fill="#F0C84E" fontSize="11" fontFamily="Space Grotesk" fontWeight="bold">AI-POWERED Brain³ OS</text>
+                  <text x="0" y="-2" textAnchor="middle" fill="#F0C84E" fontSize="11" fontFamily="Space Grotesk" fontWeight="bold">PROPRIETARY AI CORE</text>
                   <text x="0" y="11" textAnchor="middle" fill="#C9A227" fontSize="8" fontFamily="JetBrains Mono">SPATIAL FUSION &amp; SORTING</text>
                 </g>
 
@@ -302,7 +302,7 @@ export const MissionSection: React.FC = () => {
 
                   {/* Core Labels */}
                   <text x="0" y="-68" textAnchor="middle" fill="#00C2B3" fontSize="12" fontFamily="Space Grotesk" fontWeight="bold" letterSpacing="1">
-                    Brain³ OS CORE
+                    SOVEREIGN CORE
                   </text>
                   <text x="0" y="76" textAnchor="middle" fill="#7A8FA6" fontSize="8" fontFamily="JetBrains Mono">
                     SOVEREIGN STREAM BUS

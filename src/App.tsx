@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { StorySection } from './components/StorySection';
 import { MissionSection } from './components/MissionSection';
+import { BrainSoftwareSection } from './components/BrainSoftwareSection';
 import { RoadmapSection } from './components/RoadmapSection';
 import { CapabilitiesSection } from './components/CapabilitiesSection';
 import { ComplianceSection } from './components/ComplianceSection';
@@ -32,6 +33,9 @@ export default function App() {
 
         {/* Section 4: The Mission */}
         <MissionSection />
+
+        {/* Section 4.5: Meet Our Proprietary AI-Powered Software: BRAIN³ */}
+        <BrainSoftwareSection />
 
         {/* Section 5: Development Stage & Roadmap */}
         <RoadmapSection />

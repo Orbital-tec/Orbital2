@@ -82,7 +82,7 @@ export const HeroSection: React.FC = () => {
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[#00FF88] shadow-[0_0_8px_#00FF88]" />
               <span className="text-[#7A8FA6] font-medium">SYSTEM CORE:</span>
-              <span className="text-[#00FF88]">AI-powered Brain³ OS</span>
+              <span className="text-[#00FF88]">CUSTOM PROPRIETARY SOFTWARE</span>
             </div>
 
             <div className="hidden sm:flex items-center gap-1.5 text-[#3D5470] border-l border-[#142238] pl-4">
@@ -170,7 +170,7 @@ export const HeroSection: React.FC = () => {
           >
             <span className="w-2 h-2 rounded-full bg-[#E84040] animate-ping" />
             <div>
-              <span className="text-[#E84040] font-bold">Brain³ OS:</span> ACTIVE
+              <span className="text-[#E84040] font-bold">SECURITY ENGINE:</span> ACTIVE
             </div>
           </div>
 
@@ -181,7 +181,7 @@ export const HeroSection: React.FC = () => {
           >
             <div className="flex items-center gap-1.5">
               <Shield className="w-3 h-3 text-[#C9A227]" />
-              <span>AI-POWERED Brain³ OS</span>
+              <span>PROPRIETARY SOVEREIGN CORE</span>
             </div>
           </div>
 

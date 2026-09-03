@@ -104,12 +104,12 @@ export const StorySection: React.FC = () => {
           </p>
 
           <p className="pt-2">
-            What was missing was security intelligence using the <span className="text-[#00C2B3] font-mono font-medium">AI-powered Brain³ OS</span>. When Amara uses Orbital, her verified information is securely maintained on our end, but anyone who receives the threat alert will never know who reported it—keeping her completely safe from reprisal. Within 320ms, the AI-powered Brain³ OS fuses her report alongside solar CCTV optical alerts and acoustic gunshot sensors, sorts the kinetic priority, and broadcasts an automated reroute warning to every commuter vehicle before they ever approach the bend.{' '}
+            What was missing was security intelligence powered by <span className="text-[#00C2B3] font-mono font-medium">custom proprietary software</span>. When Amara uses Orbital, her verified information is securely maintained on our end, but anyone who receives the threat alert will never know who reported it—keeping her completely safe from reprisal. Within 320ms, our custom proprietary software fuses her report alongside solar CCTV optical alerts and acoustic gunshot sensors, sorts the kinetic priority, and broadcasts an automated reroute warning to every commuter vehicle before they ever approach the bend.{' '}
             <span
               id="story-emphasis-highlight"
               className="block font-display font-bold text-[24px] sm:text-[28px] text-[#00C2B3] mt-3 tracking-tight"
             >
-              Orbital Avtacha turns fragmented silence into coordinated, sovereign defense.
+              Orbital Avtacha turns fragmented silence into coordinated, sovereign protection.
             </span>
           </p>
         </div>

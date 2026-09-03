@@ -48,7 +48,7 @@ export const Footer: React.FC = () => {
   const socialChannels = [
     {
       name: 'LinkedIn',
-      subtext: 'Executive & Defense Network',
+      subtext: 'Executive & Strategic Network',
       href: 'https://www.linkedin.com/in/orbital-avtacha/',
       icon: Linkedin,
       color: '#0A66C2',
